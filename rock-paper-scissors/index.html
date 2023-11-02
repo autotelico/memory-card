@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
-    <h1></h1>
+  <audio id="background-music" loop autoplay>
+    <source src="./music/funky-night.mp3" type="audio/mpeg">
+  </audio>
+
+    <div class="header">
+        <h1 id="header-title">Rock Paper Scissors</h1>
+    </div>
+      <div class="game-display">
+          <button id="start-button">Start</button>
+          <p id="player-selection">
+            <button class="player-option" id="rock">Rock</button>
+            <button class="player-option" id="paper">Paper</button>
+            <button class="player-option" id="scissors">Scissors</button>
+          </p>
+          <p id="computer-selection"></p>
+          <img src="./images/music-icon.png" height="50px" width="50px" id="toggle-music-button">
+      </div>
+  <div class="footer"><p>Developed by: Henrique Heron © 2023<p></div>
 </body>
 </html>
