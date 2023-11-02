@@ -49,13 +49,21 @@ div.header {
 .player-option {
     display: none;
     cursor: pointer;
-    transform: translate(0px, 150px);
+    /* transform: translate(0px, 150px); */
     font-size: 3em;
-    margin-right: 30px;
     background: #93C48B;
     border: 5px solid;
     border-radius: 10px;
 } 
+
+.player-option-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 35vh;
+    margin-right: 7vw;
+}
 
 #toggle-music-button {
     cursor: pointer;
