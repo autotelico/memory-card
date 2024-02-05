@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import {SaySomething, DivWrap} from './myStuff'
+import {SaySomething, DivWrap, CityList, Button} from './myStuff'
 import './App.css'
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-    <SaySomething />
       <DivWrap />
+      <Button />
     </>
   )
 }
